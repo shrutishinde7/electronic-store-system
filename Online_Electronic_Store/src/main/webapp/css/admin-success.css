@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+
+@charset "ISO-8859-1";
+
+body.admin-success-bg {
+    background-color: #FFFBDE;
+    background-image: url('../images/admin-success-bg.jpg'); /* Optional background */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.success-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 16px;
+    border: 2px solid #91C8E4;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 420px;
+}
+
+.success-container h2 {
+    color: #4682A9;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.button-links a {
+    display: block;
+    background-color: #91C8E4;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button-links a:hover {
+    background-color: #4682A9;
+}

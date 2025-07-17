@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #FFFBDE;
+    background-image: url('../images/product-bg.jpg'); /* optional image */
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    background-color: rgba(255, 255, 255, 0.95);
+    margin: 40px auto;
+    padding: 30px 50px;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+h1, h2 {
+    color: #4682A9;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #91C8E4;
+}
+
+th {
+    background-color: #91C8E4;
+    color: #fff;
+    padding: 10px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    color: #333;
+}
+
+.btn {
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.edit {
+    background-color: #749BC2;
+}
+
+.delete {
+    background-color: #C94C4C;
+}
+
+.buy {
+    background-color: #4682A9;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+.message {
+    text-align: center;
+    color: #C94C4C;
+    font-weight: bold;
+}
+
+.logout-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #91C8E4;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logout-link:hover {
+    background-color: #749BC2;
+}

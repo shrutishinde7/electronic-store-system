@@ -1,0 +1,75 @@
+@charset "ISO-8859-1";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #FFFBDE;
+    background-image: url('../images/edit-bg.jpg'); /* Optional background */
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    background-color: rgba(255, 255, 255, 0.95);
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #4682A9;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #749BC2;
+    margin-bottom: 30px;
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #91C8E4;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.update-btn {
+    padding: 10px;
+    background-color: #4682A9;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.update-btn:hover {
+    background-color: #749BC2;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #4682A9;
+    font-weight: bold;
+}

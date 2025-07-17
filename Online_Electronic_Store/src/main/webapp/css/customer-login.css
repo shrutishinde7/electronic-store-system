@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #FFFBDE;
+    color: #2E2E2E;
+}
+
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    border: 2px solid #91C8E4;
+}
+
+h1 {
+    color: #4682A9;
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 16px;
+    color: #749BC2;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+input[type="submit"] {
+    background-color: #91C8E4;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #749BC2;
+}
+
+.links {
+    margin-top: 25px;
+}
+
+.links a {
+    display: inline-block;
+    margin: 5px 10px;
+    text-decoration: none;
+    color: #4682A9;
+    font-weight: bold;
+    background-color: #FFFBDE;
+    border: 1px solid #91C8E4;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.links a:hover {
+    background-color: #91C8E4;
+    color: white;
+}

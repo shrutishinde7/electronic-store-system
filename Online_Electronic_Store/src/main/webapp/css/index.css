@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+
+@charset "ISO-8859-1";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFBDE;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-image: url('../images/index-bg.jpg'); /* Optional */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 50px 40px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    border: 2px solid #91C8E4;
+    width: 420px;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-4px);
+}
+
+.container h1 {
+    font-size: 30px;
+    color: #4682A9;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px #dfe9f3;
+}
+
+.links a {
+    display: block;
+    background-color: #749BC2;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 12px auto;
+    transition: all 0.3s ease;
+    width: 80%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.links a:hover {
+    background-color: #4682A9;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    transform: scale(1.03);
+}

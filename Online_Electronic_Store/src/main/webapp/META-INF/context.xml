@@ -1,0 +1,30 @@
+<Context>
+  <Resource name="jdbc/MyDB" auth="Container" type="javax.sql.DataSource"
+            factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+            driverClassName="oracle.jdbc.OracleDriver"
+            url="jdbc:oracle:thin:@127.0.0.1:1521/orcl2"
+            username="system" password="newpassword"
+            maxActive="20"
+            maxIdle="5"
+            minIdle="2"
+            maxWait="10000"
+
+            validationQuery="SELECT 1 FROM DUAL"
+            validationQueryTimeout="5"
+            testOnBorrow="true"
+            testWhileIdle="true"
+            validationInterval="30000"
+            timeBetweenEvictionRunsMillis="30000"
+            minEvictableIdleTimeMillis="60000"
+
+            removeAbandoned="true"
+            removeAbandonedTimeout="300"
+            logAbandoned="true"
+            
+            connectionProperties="oracle.jdbc.ReadTimeout=5000"
+            maxAge="3600000"
+            
+            jdbcInterceptors="org.apache.tomcat.jdbc.pool.interceptor.ResetAbandonedTimer;org.apache.tomcat.jdbc.pool.interceptor.ConnectionState"
+            
+/>
+</Context>

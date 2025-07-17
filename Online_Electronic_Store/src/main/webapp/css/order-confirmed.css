@@ -1,0 +1,71 @@
+body.order-confirmed-bg {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFBDE;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-image: url('../images/order-confirmed-bg.jpg'); /* Optional background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmation-card {
+    background-color: rgba(255, 255, 255, 0.96);
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border: 2px solid #91C8E4;
+    width: 420px;
+}
+
+.confirmation-card h1 {
+    font-size: 26px;
+    color: #4682A9;
+    margin-bottom: 20px;
+}
+
+.charge-msg {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.success-msg {
+    font-size: 17px;
+    color: #2e7d32;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btn {
+    background-color: #749BC2;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #4682A9;
+}
+
+.logout-btn {
+    background-color: #FF6B6B;
+}
+
+.logout-btn:hover {
+    background-color: #d9534f;
+}
+

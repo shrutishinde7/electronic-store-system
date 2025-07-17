@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFBDE;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-image: url('../images/admin-welcome.jpg'); /* optional image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dashboard-container {
+    background-color: rgba(255, 255, 255, 0.92);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 400px;
+    border: 2px solid #91C8E4;
+}
+
+h1 {
+    font-size: 26px;
+    color: #4682A9;
+    margin-bottom: 30px;
+}
+
+.dashboard-links a {
+    display: block;
+    text-decoration: none;
+    margin: 12px 0;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #749BC2;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-links a:hover {
+    background-color: #4682A9;
+}

@@ -1,0 +1,92 @@
+@charset "ISO-8859-1";
+
+@charset "ISO-8859-1";
+
+/* 🎨 Color Palette Variables */
+:root {
+  --primary: #749BC2;
+  --primary-hover: #4682A9;
+  --accent-border: #91C8E4;
+  --bg: #FFFBDE;
+  --container-bg: rgba(255, 255, 255, 0.92);
+  --text-color: #333333;
+}
+
+/* 🧱 Full-page flex wrapper */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  color: var(--text-color);
+}
+
+/* 📦 Form container */
+.form-container {
+  background-color: var(--container-bg);
+  border: 2px solid var(--accent-border);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  padding: 40px 30px;
+  width: 90%;
+  max-width: 480px;
+  text-align: left;
+}
+
+/* ✍️ Heading Style */
+.form-container h1 {
+  text-align: center;
+  font-size: 24px;
+  color: var(--primary-hover);
+  margin-bottom: 30px;
+}
+
+/* 🧩 Form layout */
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+.form-container form label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.form-container form input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid var(--accent-border);
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* ✅ Submit button */
+.form-container form input[type="submit"] {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+.form-container form input[type="submit"]:hover {
+  background-color: var(--primary-hover);
+  transform: scale(1.02);
+}
+
+/* 📱 Mobile responsiveness */
+@media (max-width: 500px) {
+  .form-container {
+    padding: 30px 20px;
+  }
+  .form-container input {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
