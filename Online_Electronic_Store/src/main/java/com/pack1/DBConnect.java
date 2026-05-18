@@ -9,7 +9,7 @@ public class DBConnect {
         try {
             Class.forName("oracle.jdbc.OracleDriver");
             con = DriverManager.getConnection(
-                "jdbc:oracle:thin:@127.0.0.1:1521/orcl2",
+                "jdbc:oracle:thin:@127.0.0.1:1521:orcl2",
                 "system",
                 "newpassword"
             );

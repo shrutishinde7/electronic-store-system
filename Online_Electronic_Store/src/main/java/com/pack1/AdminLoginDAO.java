@@ -27,6 +27,8 @@ public class AdminLoginDAO
     			abean.setaAddress(rs.getString(5));
     			abean.setaMailId(rs.getString(6));
     			abean.setaPhoneNo(rs.getString(7));
+    		
+
  
     		}
     	}
@@ -34,6 +36,8 @@ public class AdminLoginDAO
     	{
     		e.printStackTrace();
     	}
+    
+
     	return abean;
     }
 }
